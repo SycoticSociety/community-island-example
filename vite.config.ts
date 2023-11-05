@@ -1,7 +1,6 @@
 import { defineConfig } from "vite";
 import { resolve } from "path";
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [],
   define: {
@@ -13,9 +12,9 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        // main: resolve(__dirname, "index.html"),
-        scene: resolve(__dirname, "Scene.ts"),
+        scene: resolve(__dirname, "Scene.ts"), // Correct path to Scene.ts
       },
     },
   },
 });
+
