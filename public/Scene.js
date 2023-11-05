@@ -9,7 +9,7 @@ class ExternalScene extends window.BaseScene {
         },
       },
        map: {
-        tilesetUrl: "https://drive.google.com/file/d/1MS0wOdghXEWWJ7vEk0k3CSF9V8XDk67f/view?usp=sharing",
+        tilesetUrl: "https://ibb.co/LgCkpcL",
        },
       // mmo: {
       //   enabled: true,
@@ -19,31 +19,31 @@ class ExternalScene extends window.BaseScene {
     });
   }
 
-  create() {
-    super.create();
+ //create() {
+    //super.create();
 
-    const npcClothing = {
-      body: "Goblin Potion",
-      hat: "Pirate Hat",
-      hair: "Buzz Cut",
-      shirt: "SFL T-Shirt",
-      pants: "Farmer Pants",
-      tool: "Pirate Scimitar",
-    };
+    //const npcClothing = {
+      //body: "Goblin Potion",
+     // hat: "Pirate Hat",
+     // hair: "Buzz Cut",
+     // shirt: "SFL T-Shirt",
+     // pants: "Farmer Pants",
+     // tool: "Pirate Scimitar",
+    //};
 
-    this.initialiseNPCs([
-      {
-        x: 240,
-        y: 320,
-        npc: "geoff",
-        clothing: npcClothing,
-        onClick: () => {
-          window.openModal({
-            npc: {
-              name: "Geoff",
-              clothing: npcClothing,
-            },
-            jsx: "Howdy farmer! Welcome to the test community island, stay safe out there.",
+    //this.initialiseNPCs([
+      //{
+        //x: 240,
+        //y: 320,
+        //npc: "geoff",
+        //clothing: npcClothing,
+        //onClick: () => {
+          //window.openModal({
+            //npc: {
+              //name: "Geoff",
+              //clothing: npcClothing,
+            //},
+           // jsx: "Howdy farmer! Welcome to the test community island, stay safe out there.",
           });
         },
       },
