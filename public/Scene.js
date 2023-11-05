@@ -8,9 +8,9 @@ class ExternalScene extends window.BaseScene {
           y: 280,
         },
       },
-      // map: {
-      //   tilesetUrl: "http://localhost:3002/tilesheet.png",
-      // },
+       map: {
+        tilesetUrl: "https://drive.google.com/file/d/1MS0wOdghXEWWJ7vEk0k3CSF9V8XDk67f/view?usp=sharing",
+       },
       // mmo: {
       //   enabled: true,
       //   url: "ws://localhost:2567",
